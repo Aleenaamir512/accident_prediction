@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.log
+cache/
+
+# Keep datasets private until sharing permissions are verified
+*.csv
+*.xlsx
+*.xls

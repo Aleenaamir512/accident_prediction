@@ -1,0 +1,124 @@
+FINAL EDA SUMMARY
+======================================================================
+Rows: 1500
+Columns: 37
+Duplicate rows: 0
+Total missing values: 0
+
+ACCIDENT RISK DISTRIBUTION
+----------------------------------------------------------------------
+Low: 199 (13.3%)
+Medium: 998 (66.5%)
+High: 303 (20.2%)
+
+NUMERIC MEANS BY ACCIDENT RISK
+----------------------------------------------------------------------
+Vehicle Count
+  Low: 2922.35
+  Medium: 3383.39
+  High: 5151.73
+Ride Activity
+  Low: 572.13
+  Medium: 643.27
+  High: 983.54
+Bus Activity
+  Low: 80.93
+  Medium: 98.27
+  High: 164.59
+Traffic Load per Lane
+  Low: 1354.85
+  Medium: 1536.90
+  High: 2095.16
+Traffic Load Ratio
+  Low: 0.47
+  Medium: 0.54
+  High: 0.77
+Rainfall
+  Low: 0.01
+  Medium: 0.01
+  High: 0.00
+Visibility
+  Low: 23.99
+  Medium: 24.08
+  High: 24.04
+Estimated Average Speed
+  Low: 31.37
+  Medium: 30.03
+  High: 29.84
+
+HIGH-RISK SHARE BY IMPORTANT CATEGORICAL FEATURES
+----------------------------------------------------------------------
+Area
+  Sohrab Goth: n=116, High=66.4%
+  Karimabad: n=92, High=35.9%
+  NIPA Road: n=99, High=35.4%
+  Korangi: n=112, High=30.4%
+  Saddar: n=109, High=24.8%
+  Lyari: n=122, High=23.0%
+  North Nazimabad: n=117, High=15.4%
+  Nazimabad: n=126, High=13.5%
+  Clifton: n=136, High=11.0%
+  Gulshan: n=110, High=8.2%
+  Malir: n=120, High=5.8%
+  PECHS: n=113, High=2.7%
+  DHA: n=128, High=0.0%
+Road Type
+  Highway: n=171, High=46.8%
+  Industrial Road: n=62, High=27.4%
+  Narrow Road: n=56, High=26.8%
+  Intersection: n=332, High=19.0%
+  Main Road: n=641, High=16.4%
+  Service Road: n=238, High=9.7%
+Road Condition
+  Heavy Traffic: n=257, High=56.4%
+  Congested: n=476, High=21.2%
+  Construction: n=94, High=20.2%
+  Normal: n=673, High=5.6%
+Time Period
+  Evening Rush: n=248, High=46.4%
+  Morning Rush: n=189, High=40.7%
+  Evening Build-up: n=62, High=17.7%
+  Late Evening: n=186, High=15.6%
+  Daytime: n=374, High=13.1%
+  Early Morning: n=126, High=6.3%
+  Late Night: n=315, High=4.4%
+Congestion Level
+  Severe: n=157, High=43.9%
+  High: n=345, High=33.3%
+  Moderate: n=577, High=17.2%
+  Low: n=421, High=4.8%
+ML Weather
+  Dry: n=1476, High=20.3%
+  Rainy: n=24, High=12.5%
+Traffic Signal
+  0: n=875, High=22.4%
+  1: n=625, High=17.1%
+Number of Lanes
+  3: n=771, High=23.7%
+  2: n=562, High=18.5%
+  1: n=167, High=9.6%
+
+HIGH NUMERIC CORRELATIONS (ABS >= 0.75)
+----------------------------------------------------------------------
+Vehicle Count <-> Ride Activity: 0.905
+Vehicle Count <-> Bus Activity: 0.868
+Vehicle Count <-> Traffic Load per Lane: 0.774
+Vehicle Count <-> Traffic Load Ratio: 0.940
+Ride Activity <-> Bus Activity: 0.851
+Ride Activity <-> Traffic Load per Lane: 0.776
+Ride Activity <-> Traffic Load Ratio: 0.917
+Bus Activity <-> Traffic Load Ratio: 0.865
+Pickup Hour <-> Hour Sin: -0.775
+Number of Lanes <-> Reference Traffic Load: -0.840
+Traffic Load per Lane <-> Traffic Load Ratio: 0.868
+
+IQR OUTLIER COUNTS
+----------------------------------------------------------------------
+Vehicle Count: 0 outliers (bounds -4279.38 to 10955.62)
+Ride Activity: 0 outliers (bounds -1344.75 to 2481.25)
+Bus Activity: 0 outliers (bounds -262.50 to 437.50)
+Traffic Load per Lane: 14 outliers (bounds -1698.88 to 4610.13)
+Traffic Load Ratio: 0 outliers (bounds -0.69 to 1.70)
+Rainfall: 24 outliers (bounds 0.00 to 0.00)
+Visibility: 14 outliers (bounds 24.14 to 24.14)
+Estimated Average Speed: 33 outliers (bounds -8.19 to 65.11)

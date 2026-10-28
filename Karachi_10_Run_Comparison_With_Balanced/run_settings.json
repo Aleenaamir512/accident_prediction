@@ -1,0 +1,48 @@
+{
+  "input": "D:\\accident_prediction\\karachi_traffic_feature_engineered_final_v2.xlsx",
+  "mode": "both",
+  "runs": 10,
+  "estimators": 300,
+  "features": [
+    "Vehicle Count",
+    "Road Type",
+    "Road Condition",
+    "Area",
+    "Number of Lanes",
+    "Traffic Signal",
+    "ML Weather",
+    "Hour Sin",
+    "Hour Cos"
+  ],
+  "categorical": [
+    "Road Type",
+    "Road Condition",
+    "Area",
+    "ML Weather"
+  ],
+  "class_order": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "models": [
+    "Random Forest",
+    "XGBoost",
+    "LightGBM",
+    "Logistic Regression"
+  ],
+  "resamplers": [
+    "Original",
+    "RUS",
+    "ROS",
+    "ENN",
+    "SMOTENC",
+    "SMOTEENN"
+  ],
+  "balanced_weight_models": [
+    "Random Forest",
+    "Logistic Regression"
+  ],
+  "total_configurations": 26,
+  "note": "Paper-inspired retrospective study; no independent crash-label provenance established."
+}
