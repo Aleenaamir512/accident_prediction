@@ -236,7 +236,7 @@ def calculate_metrics(y_true, y_pred):
         'Macro F1': f1_score(y_true, y_pred, labels=[0,1,2], average='macro', zero_division=0),
         # Wang et al. Equation (10), adapted with L1=Low, L2=Medium.
         # This is NOT macro F1 or precision and isn't directly comparable across datasets.
-        'Wang Adapted Score': (acc + recall[0] + recall[1]) / 3,
+        'Composite Performance Score': (acc + recall[0] + recall[1]) / 3,
     }
     for i, label in enumerate(LABELS):
         metrics[f'Precision {label}'] = precision[i]
@@ -406,7 +406,7 @@ def evaluate_mode(df, mode, args, out):
     result = pd.DataFrame(rows)
     if result.empty:
         raise RuntimeError(f'No model fits succeeded for {mode}.')
-    cols = ['Accuracy', 'Macro Precision', 'Macro Recall', 'Macro F1', 'Wang Adapted Score'] + [
+    cols = ['Accuracy', 'Macro Precision', 'Macro Recall', 'Macro F1', 'Composite Performance Score'] + [
         f'{metric} {label}' for label in LABELS for metric in ['Precision','Recall','F1']
     ]
     mean = result.groupby(['Classifier', 'Resampling','Model'])[cols].agg(['mean','std','count'])
@@ -415,7 +415,7 @@ def evaluate_mode(df, mode, args, out):
     mean.to_csv(out / f'{mode}_mean_sd.csv', index=False)
     export_classwise_tables(result, out, mode)
     print(f'\n[{mode}] TOP 10 BY MEAN MACRO F1:')
-    print(mean[['Model','Macro Precision Mean','Macro F1 Mean','Macro F1 Std','Wang Adapted Score Mean']].head(10).round(4).to_string(index=False),flush=True)
+    print(mean[['Model','Macro Precision Mean','Macro F1 Mean','Macro F1 Std','Composite Performance Score Mean']].head(10).round(4).to_string(index=False),flush=True)
     if errors:
         print(f'NOTE: {len(errors)} fits failed. Inspect {path_errors.name}.',flush=True)
     return result, mean, errors

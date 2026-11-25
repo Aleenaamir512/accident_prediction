@@ -1,0 +1,10 @@
+Class,Original Feature,Mean Absolute SHAP
+Medium,Area,0.08856748710975758
+Medium,Road Condition,0.0681528671448216
+Medium,Hour Sin,0.04680448894901176
+Medium,Vehicle Count,0.0454134509611394
+Medium,Hour Cos,0.03551543029452422
+Medium,Road Type,0.027343698657508214
+Medium,Number of Lanes,0.00799072177785839
+Medium,Traffic Signal,0.006029413137164794
+Medium,ML Weather,0.0002731920583734151

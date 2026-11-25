@@ -1,0 +1,66 @@
+{
+  "model": "RandomForestClassifier",
+  "selection": "Final model selected from prior chronological model-comparison experiments.",
+  "class_weight": "balanced",
+  "resampling": "None - original training data",
+  "n_estimators": 300,
+  "min_samples_leaf": 3,
+  "random_state": 42,
+  "features": [
+    "Vehicle Count",
+    "Road Type",
+    "Road Condition",
+    "Area",
+    "Number of Lanes",
+    "Traffic Signal",
+    "ML Weather",
+    "Hour Sin",
+    "Hour Cos"
+  ],
+  "categorical_features": [
+    "Road Type",
+    "Road Condition",
+    "Area",
+    "ML Weather"
+  ],
+  "numerical_features": [
+    "Vehicle Count",
+    "Number of Lanes",
+    "Traffic Signal",
+    "Hour Sin",
+    "Hour Cos"
+  ],
+  "target": "Accident Risk",
+  "class_order": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "input_file": "D:\\accident_prediction\\karachi_traffic_feature_engineered_final_v2.xlsx",
+  "total_rows": 1500,
+  "training_rows": 1200,
+  "test_rows": 300,
+  "training_start": "2024-01-01 00:00:00",
+  "training_end": "2024-02-19 23:00:00",
+  "test_start": "2024-02-20 00:00:00",
+  "test_end": "2024-03-03 11:00:00",
+  "training_class_counts": {
+    "Medium": 798,
+    "High": 243,
+    "Low": 159
+  },
+  "test_class_counts": {
+    "Medium": 200,
+    "High": 60,
+    "Low": 40
+  },
+  "final_test_metrics": {
+    "Accuracy": 0.6866666666666666,
+    "Balanced Accuracy": 0.6944444444444443,
+    "Macro Precision": 0.6158118345618346,
+    "Macro Recall": 0.6944444444444445,
+    "Macro F1": 0.638716793391533,
+    "Weighted F1": 0.6992678118839765
+  },
+  "important_limitation": "The source dataset already contained Accident Risk labels. Their derivation from independently observed crash records has not been established."
+}

@@ -1,0 +1,26 @@
+{
+  "model_path": "D:\\accident_prediction\\Final_Random_Forest_Output\\final_random_forest_model.joblib",
+  "dataset_path": "D:\\accident_prediction\\karachi_traffic_feature_engineered_final_v2.xlsx",
+  "evaluation_rows": 300,
+  "shap_rows_used": 300,
+  "evaluation_period_start": "2024-02-20 00:00:00",
+  "evaluation_period_end": "2024-03-03 11:00:00",
+  "model_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "features": [
+    "Vehicle Count",
+    "Road Type",
+    "Road Condition",
+    "Area",
+    "Number of Lanes",
+    "Traffic Signal",
+    "ML Weather",
+    "Hour Sin",
+    "Hour Cos"
+  ],
+  "method": "Random Forest impurity feature importance and TreeSHAP on the saved final model.",
+  "interpretation_warning": "Feature importance and SHAP describe model behavior, not causality. The source Accident Risk label derivation is undocumented."
+}

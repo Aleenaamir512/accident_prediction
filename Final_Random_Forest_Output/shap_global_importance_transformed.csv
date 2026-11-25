@@ -1,0 +1,31 @@
+Transformed Feature,Original Feature,Feature Type,Category,Mean Absolute SHAP
+categorical__Road Condition_Normal,Road Condition,Categorical,Normal,0.055430126199764194
+numerical__Vehicle Count,Vehicle Count,Numerical,,0.049598539774305075
+categorical__Road Condition_Heavy Traffic,Road Condition,Categorical,Heavy Traffic,0.048647782029725146
+numerical__Hour Sin,Hour Sin,Numerical,,0.0463834105520771
+numerical__Hour Cos,Hour Cos,Numerical,,0.035105342157361
+categorical__Area_DHA,Area,Categorical,DHA,0.02553931178474843
+categorical__Area_Sohrab Goth,Area,Categorical,Sohrab Goth,0.015296050397715298
+categorical__Area_NIPA Road,Area,Categorical,NIPA Road,0.01478962276826296
+categorical__Road Type_Highway,Road Type,Categorical,Highway,0.010610449098079318
+categorical__Area_Karimabad,Area,Categorical,Karimabad,0.010157384949811726
+categorical__Area_Nazimabad,Area,Categorical,Nazimabad,0.00869512786308003
+numerical__Traffic Signal,Traffic Signal,Numerical,,0.0074308558386670725
+categorical__Area_Gulshan,Area,Categorical,Gulshan,0.007099148572195655
+numerical__Number of Lanes,Number of Lanes,Numerical,,0.006867483381047341
+categorical__Area_Lyari,Area,Categorical,Lyari,0.005910062197648836
+categorical__Road Type_Main Road,Road Type,Categorical,Main Road,0.00551652076027552
+categorical__Area_North Nazimabad,Area,Categorical,North Nazimabad,0.00536109091785256
+categorical__Road Condition_Congested,Road Condition,Categorical,Congested,0.005270077617588601
+categorical__Road Condition_Construction,Road Condition,Categorical,Construction,0.004751130254337438
+categorical__Area_Saddar,Area,Categorical,Saddar,0.004674893694664517
+categorical__Area_PECHS,Area,Categorical,PECHS,0.004416958836624659
+categorical__Road Type_Intersection,Road Type,Categorical,Intersection,0.004092853405971957
+categorical__Area_Malir,Area,Categorical,Malir,0.0038463910176614923
+categorical__Road Type_Service Road,Road Type,Categorical,Service Road,0.0035121145973882615
+categorical__Area_Clifton,Area,Categorical,Clifton,0.0033321110577286504
+categorical__Area_Korangi,Area,Categorical,Korangi,0.003285002258220927
+categorical__Road Type_Industrial Road,Road Type,Categorical,Industrial Road,0.0017481844374927738
+categorical__Road Type_Narrow Road,Road Type,Categorical,Narrow Road,0.0012312952914630244
+categorical__ML Weather_Rainy,ML Weather,Categorical,Rainy,0.00022816612430294147
+categorical__ML Weather_Dry,ML Weather,Categorical,Dry,0.00020410202922471857

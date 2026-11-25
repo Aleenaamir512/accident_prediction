@@ -1,0 +1,31 @@
+Transformed Feature,Original Feature,Feature Type,Category
+numerical__Vehicle Count,Vehicle Count,Numerical,
+numerical__Number of Lanes,Number of Lanes,Numerical,
+numerical__Traffic Signal,Traffic Signal,Numerical,
+numerical__Hour Sin,Hour Sin,Numerical,
+numerical__Hour Cos,Hour Cos,Numerical,
+categorical__Road Type_Highway,Road Type,Categorical,Highway
+categorical__Road Type_Industrial Road,Road Type,Categorical,Industrial Road
+categorical__Road Type_Intersection,Road Type,Categorical,Intersection
+categorical__Road Type_Main Road,Road Type,Categorical,Main Road
+categorical__Road Type_Narrow Road,Road Type,Categorical,Narrow Road
+categorical__Road Type_Service Road,Road Type,Categorical,Service Road
+categorical__Road Condition_Congested,Road Condition,Categorical,Congested
+categorical__Road Condition_Construction,Road Condition,Categorical,Construction
+categorical__Road Condition_Heavy Traffic,Road Condition,Categorical,Heavy Traffic
+categorical__Road Condition_Normal,Road Condition,Categorical,Normal
+categorical__Area_Clifton,Area,Categorical,Clifton
+categorical__Area_DHA,Area,Categorical,DHA
+categorical__Area_Gulshan,Area,Categorical,Gulshan
+categorical__Area_Karimabad,Area,Categorical,Karimabad
+categorical__Area_Korangi,Area,Categorical,Korangi
+categorical__Area_Lyari,Area,Categorical,Lyari
+categorical__Area_Malir,Area,Categorical,Malir
+categorical__Area_NIPA Road,Area,Categorical,NIPA Road
+categorical__Area_Nazimabad,Area,Categorical,Nazimabad
+categorical__Area_North Nazimabad,Area,Categorical,North Nazimabad
+categorical__Area_PECHS,Area,Categorical,PECHS
+categorical__Area_Saddar,Area,Categorical,Saddar
+categorical__Area_Sohrab Goth,Area,Categorical,Sohrab Goth
+categorical__ML Weather_Dry,ML Weather,Categorical,Dry
+categorical__ML Weather_Rainy,ML Weather,Categorical,Rainy

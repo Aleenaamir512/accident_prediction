@@ -1,0 +1,91 @@
+Class,Transformed Feature,Original Feature,Feature Type,Category,Mean Absolute SHAP
+High,categorical__Road Condition_Normal,Road Condition,Categorical,Normal,0.07616101387974847
+High,categorical__Road Condition_Heavy Traffic,Road Condition,Categorical,Heavy Traffic,0.07297167304458771
+High,numerical__Vehicle Count,Vehicle Count,Numerical,,0.05995815773051844
+High,numerical__Hour Sin,Hour Sin,Numerical,,0.057102253210609216
+High,numerical__Hour Cos,Hour Cos,Numerical,,0.04117408259616852
+High,categorical__Area_Sohrab Goth,Area,Categorical,Sohrab Goth,0.02294407559657296
+High,categorical__Area_DHA,Area,Categorical,DHA,0.01937956605112658
+High,categorical__Area_NIPA Road,Area,Categorical,NIPA Road,0.015450809231040514
+High,categorical__Road Type_Highway,Road Type,Categorical,Highway,0.015342811239488012
+High,categorical__Area_Nazimabad,Area,Categorical,Nazimabad,0.010491660643049268
+High,categorical__Area_Karimabad,Area,Categorical,Karimabad,0.009412300894126728
+High,numerical__Traffic Signal,Traffic Signal,Numerical,,0.00838397549018141
+High,categorical__Area_Lyari,Area,Categorical,Lyari,0.005767733792935206
+High,categorical__Road Condition_Congested,Road Condition,Categorical,Congested,0.00539678419540272
+High,numerical__Number of Lanes,Number of Lanes,Numerical,,0.0052423995123360495
+High,categorical__Area_Malir,Area,Categorical,Malir,0.004818831304120024
+High,categorical__Area_PECHS,Area,Categorical,PECHS,0.0044305117713074734
+High,categorical__Area_Korangi,Area,Categorical,Korangi,0.004235805586463468
+High,categorical__Road Type_Main Road,Road Type,Categorical,Main Road,0.004093158255629649
+High,categorical__Area_Gulshan,Area,Categorical,Gulshan,0.003911199235353705
+High,categorical__Road Condition_Construction,Road Condition,Categorical,Construction,0.003457962934981673
+High,categorical__Area_North Nazimabad,Area,Categorical,North Nazimabad,0.0033635674478203733
+High,categorical__Road Type_Service Road,Road Type,Categorical,Service Road,0.0029958634993119625
+High,categorical__Area_Saddar,Area,Categorical,Saddar,0.0028473188993985237
+High,categorical__Road Type_Intersection,Road Type,Categorical,Intersection,0.002722480572412375
+High,categorical__Area_Clifton,Area,Categorical,Clifton,0.002462232283982989
+High,categorical__Road Type_Industrial Road,Road Type,Categorical,Industrial Road,0.002104302102657537
+High,categorical__Road Type_Narrow Road,Road Type,Categorical,Narrow Road,0.0017341506556918188
+High,categorical__ML Weather_Rainy,ML Weather,Categorical,Rainy,0.0002234593976952173
+High,categorical__ML Weather_Dry,ML Weather,Categorical,Dry,0.00017376620845682957
+Low,categorical__Road Condition_Normal,Road Condition,Categorical,Normal,0.06635114204673039
+Low,numerical__Vehicle Count,Vehicle Count,Numerical,,0.04342401063125733
+Low,categorical__Area_DHA,Area,Categorical,DHA,0.03829966962746022
+Low,categorical__Road Condition_Heavy Traffic,Road Condition,Categorical,Heavy Traffic,0.037358774005978444
+Low,numerical__Hour Sin,Hour Sin,Numerical,,0.03524348949661032
+Low,numerical__Hour Cos,Hour Cos,Numerical,,0.028626513581390293
+Low,categorical__Area_NIPA Road,Area,Categorical,NIPA Road,0.02034004254023884
+Low,categorical__Area_Karimabad,Area,Categorical,Karimabad,0.014841024915959546
+Low,categorical__Area_Nazimabad,Area,Categorical,Nazimabad,0.010603227645599319
+Low,categorical__Area_Sohrab Goth,Area,Categorical,Sohrab Goth,0.01055246497768123
+Low,categorical__Area_Gulshan,Area,Categorical,Gulshan,0.010403788364300608
+Low,categorical__Road Type_Highway,Road Type,Categorical,Highway,0.008289542953956008
+Low,categorical__Area_Lyari,Area,Categorical,Lyari,0.008193278595760673
+Low,numerical__Traffic Signal,Traffic Signal,Numerical,,0.007879178888655018
+Low,categorical__Area_North Nazimabad,Area,Categorical,North Nazimabad,0.007571302289858607
+Low,numerical__Number of Lanes,Number of Lanes,Numerical,,0.007369328852947586
+Low,categorical__Road Condition_Construction,Road Condition,Categorical,Construction,0.00687525852930562
+Low,categorical__Area_Saddar,Area,Categorical,Saddar,0.00616795023100577
+Low,categorical__Road Type_Main Road,Road Type,Categorical,Main Road,0.006088926493947824
+Low,categorical__Road Condition_Congested,Road Condition,Categorical,Congested,0.0055718725226895
+Low,categorical__Road Type_Intersection,Road Type,Categorical,Intersection,0.004705740943292777
+Low,categorical__Area_Malir,Area,Categorical,Malir,0.0037565961305541123
+Low,categorical__Area_Clifton,Area,Categorical,Clifton,0.0036105438229335793
+Low,categorical__Area_PECHS,Area,Categorical,PECHS,0.0035187868232135727
+Low,categorical__Road Type_Service Road,Road Type,Categorical,Service Road,0.00309535358818158
+Low,categorical__Area_Korangi,Area,Categorical,Korangi,0.0012676931370257767
+Low,categorical__Road Type_Narrow Road,Road Type,Categorical,Narrow Road,0.0009767235191887043
+Low,categorical__Road Type_Industrial Road,Road Type,Categorical,Industrial Road,0.0006415002907460966
+Low,categorical__ML Weather_Rainy,ML Weather,Categorical,Rainy,0.00032599996137632907
+Low,categorical__ML Weather_Dry,ML Weather,Categorical,Dry,0.00030038683468118943
+Medium,numerical__Hour Sin,Hour Sin,Numerical,,0.04680448894901176
+Medium,numerical__Vehicle Count,Vehicle Count,Numerical,,0.0454134509611394
+Medium,categorical__Road Condition_Heavy Traffic,Road Condition,Categorical,Heavy Traffic,0.035612899038609286
+Medium,numerical__Hour Cos,Hour Cos,Numerical,,0.03551543029452422
+Medium,categorical__Road Condition_Normal,Road Condition,Categorical,Normal,0.023778222672813737
+Medium,categorical__Area_DHA,Area,Categorical,DHA,0.018938699675658505
+Medium,categorical__Area_Sohrab Goth,Area,Categorical,Sohrab Goth,0.012391610618891703
+Medium,categorical__Area_NIPA Road,Area,Categorical,NIPA Road,0.008578016533509545
+Medium,categorical__Road Type_Highway,Road Type,Categorical,Highway,0.008198993100793918
+Medium,numerical__Number of Lanes,Number of Lanes,Numerical,,0.00799072177785839
+Medium,categorical__Area_Gulshan,Area,Categorical,Gulshan,0.006982458116932667
+Medium,categorical__Road Type_Main Road,Road Type,Categorical,Main Road,0.006367477531249103
+Medium,categorical__Area_Karimabad,Area,Categorical,Karimabad,0.006218829039348909
+Medium,numerical__Traffic Signal,Traffic Signal,Numerical,,0.006029413137164794
+Medium,categorical__Area_PECHS,Area,Categorical,PECHS,0.0053015779153529246
+Medium,categorical__Area_North Nazimabad,Area,Categorical,North Nazimabad,0.005148403015878698
+Medium,categorical__Area_Saddar,Area,Categorical,Saddar,0.005009411953589258
+Medium,categorical__Area_Nazimabad,Area,Categorical,Nazimabad,0.004990495300591497
+Medium,categorical__Road Type_Intersection,Road Type,Categorical,Intersection,0.004850338702210716
+Medium,categorical__Road Condition_Congested,Road Condition,Categorical,Congested,0.004841576134673579
+Medium,categorical__Road Type_Service Road,Road Type,Categorical,Service Road,0.004445126704671238
+Medium,categorical__Area_Korangi,Area,Categorical,Korangi,0.004351508051173527
+Medium,categorical__Area_Clifton,Area,Categorical,Clifton,0.003923557066269383
+Medium,categorical__Road Condition_Construction,Road Condition,Categorical,Construction,0.003920169298725004
+Medium,categorical__Area_Lyari,Area,Categorical,Lyari,0.003769174204250625
+Medium,categorical__Area_Malir,Area,Categorical,Malir,0.002963745618310343
+Medium,categorical__Road Type_Industrial Road,Road Type,Categorical,Industrial Road,0.0024987509190746884
+Medium,categorical__Road Type_Narrow Road,Road Type,Categorical,Narrow Road,0.0009830116995085507
+Medium,categorical__ML Weather_Dry,ML Weather,Categorical,Dry,0.00013815304453613687
+Medium,categorical__ML Weather_Rainy,ML Weather,Categorical,Rainy,0.00013503901383727824

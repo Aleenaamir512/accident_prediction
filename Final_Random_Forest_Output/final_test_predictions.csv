@@ -1,0 +1,301 @@
+Date-Time,Accident Risk,Vehicle Count,Road Type,Road Condition,Area,Number of Lanes,Traffic Signal,ML Weather,Hour Sin,Hour Cos,Predicted Accident Risk,Correct Prediction
+2024-02-20 00:00:00,High,1129,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.0,1.0,High,True
+2024-02-20 01:00:00,Medium,695,Main Road,Normal,NIPA Road,3,0,Dry,0.258819,0.965926,Medium,True
+2024-02-20 02:00:00,Low,412,Intersection,Normal,Gulshan,2,1,Dry,0.5,0.866025,Low,True
+2024-02-20 03:00:00,High,522,Main Road,Heavy Traffic,Korangi,3,1,Dry,0.707107,0.707107,Low,False
+2024-02-20 04:00:00,Medium,467,Intersection,Normal,Gulshan,2,1,Dry,0.866025,0.5,Low,False
+2024-02-20 05:00:00,Medium,1127,Main Road,Congested,Saddar,3,0,Dry,0.965926,0.258819,Medium,True
+2024-02-20 06:00:00,Low,1525,Service Road,Normal,Clifton,2,0,Dry,1.0,0.0,Medium,False
+2024-02-20 07:00:00,Medium,4852,Intersection,Normal,Gulshan,2,1,Dry,0.965926,-0.258819,Medium,True
+2024-02-20 08:00:00,High,3699,Service Road,Heavy Traffic,NIPA Road,2,0,Dry,0.866025,-0.5,High,True
+2024-02-20 09:00:00,Medium,5680,Intersection,Construction,North Nazimabad,2,1,Dry,0.707107,-0.707107,High,False
+2024-02-20 10:00:00,Medium,4390,Highway,Normal,Malir,2,0,Dry,0.5,-0.866025,Medium,True
+2024-02-20 11:00:00,Low,3248,Service Road,Normal,Clifton,2,0,Dry,0.258819,-0.965926,Low,True
+2024-02-20 12:00:00,Low,4383,Main Road,Normal,PECHS,3,1,Dry,0.0,-1.0,Low,True
+2024-02-20 13:00:00,Medium,5729,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.258819,-0.965926,Medium,True
+2024-02-20 14:00:00,Low,4769,Main Road,Normal,Gulshan,3,0,Dry,-0.5,-0.866025,Low,True
+2024-02-20 15:00:00,Medium,2833,Service Road,Normal,NIPA Road,2,0,Dry,-0.707107,-0.707107,Medium,True
+2024-02-20 16:00:00,Low,3631,Service Road,Normal,DHA,1,0,Dry,-0.866025,-0.5,Low,True
+2024-02-20 17:00:00,High,8235,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.965926,-0.258819,High,True
+2024-02-20 18:00:00,High,8500,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-1.0,0.0,High,True
+2024-02-20 19:00:00,High,7643,Main Road,Heavy Traffic,Korangi,3,1,Dry,-0.965926,0.258819,High,True
+2024-02-20 20:00:00,Medium,5664,Highway,Normal,Malir,2,0,Dry,-0.866025,0.5,Medium,True
+2024-02-20 21:00:00,Medium,6110,Main Road,Congested,Saddar,3,0,Dry,-0.707107,0.707107,High,False
+2024-02-20 22:00:00,Medium,2551,Service Road,Normal,PECHS,1,0,Dry,-0.5,0.866025,Low,False
+2024-02-20 23:00:00,Medium,2556,Highway,Normal,Malir,2,0,Dry,-0.258819,0.965926,Low,False
+2024-02-21 00:00:00,Low,781,Main Road,Normal,Gulshan,3,0,Dry,0.0,1.0,Low,True
+2024-02-21 01:00:00,Medium,631,Main Road,Normal,Malir,2,0,Dry,0.258819,0.965926,Medium,True
+2024-02-21 02:00:00,Medium,503,Main Road,Congested,Saddar,3,0,Dry,0.5,0.866025,Medium,True
+2024-02-21 03:00:00,High,694,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.707107,0.707107,High,True
+2024-02-21 04:00:00,Medium,503,Main Road,Construction,North Nazimabad,3,0,Dry,0.866025,0.5,Medium,True
+2024-02-21 05:00:00,Medium,1052,Main Road,Normal,NIPA Road,3,0,Dry,0.965926,0.258819,Medium,True
+2024-02-21 06:00:00,Medium,2380,Main Road,Normal,Gulshan,3,0,Dry,1.0,0.0,Low,False
+2024-02-21 07:00:00,Medium,5094,Main Road,Congested,Saddar,3,0,Dry,0.965926,-0.258819,High,False
+2024-02-21 08:00:00,Medium,5445,Main Road,Congested,Nazimabad,3,1,Dry,0.866025,-0.5,Medium,True
+2024-02-21 09:00:00,Low,5858,Main Road,Normal,DHA,3,1,Dry,0.707107,-0.707107,Medium,False
+2024-02-21 10:00:00,Medium,4015,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,0.5,-0.866025,Medium,True
+2024-02-21 11:00:00,Medium,4350,Highway,Normal,Malir,2,0,Dry,0.258819,-0.965926,Medium,True
+2024-02-21 12:00:00,Medium,4448,Intersection,Construction,North Nazimabad,2,1,Dry,0.0,-1.0,Medium,True
+2024-02-21 13:00:00,Medium,3104,Service Road,Normal,Clifton,2,0,Dry,-0.258819,-0.965926,Low,False
+2024-02-21 14:00:00,Medium,4279,Intersection,Normal,Gulshan,2,1,Dry,-0.5,-0.866025,Low,False
+2024-02-21 15:00:00,Medium,5291,Main Road,Construction,North Nazimabad,3,0,Dry,-0.707107,-0.707107,Medium,True
+2024-02-21 16:00:00,Medium,6838,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.866025,-0.5,High,False
+2024-02-21 17:00:00,Medium,6150,Intersection,Congested,Lyari,3,1,Dry,-0.965926,-0.258819,High,False
+2024-02-21 18:00:00,High,7743,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-1.0,0.0,High,True
+2024-02-21 19:00:00,Medium,6771,Main Road,Normal,Gulshan,3,0,Dry,-0.965926,0.258819,Medium,True
+2024-02-21 20:00:00,Medium,4414,Main Road,Congested,Karimabad,2,1,Dry,-0.866025,0.5,Medium,True
+2024-02-21 21:00:00,High,4717,Main Road,Congested,NIPA Road,3,0,Dry,-0.707107,0.707107,High,True
+2024-02-21 22:00:00,Medium,3028,Service Road,Normal,PECHS,1,0,Dry,-0.5,0.866025,Low,False
+2024-02-21 23:00:00,Medium,1767,Service Road,Normal,PECHS,1,0,Dry,-0.258819,0.965926,Medium,True
+2024-02-22 00:00:00,Medium,691,Intersection,Congested,Lyari,3,1,Dry,0.0,1.0,Medium,True
+2024-02-22 01:00:00,Medium,525,Intersection,Normal,Gulshan,2,1,Dry,0.258819,0.965926,Low,False
+2024-02-22 02:00:00,Medium,563,Main Road,Normal,PECHS,3,1,Dry,0.5,0.866025,Medium,True
+2024-02-22 03:00:00,Medium,356,Intersection,Normal,Gulshan,2,1,Dry,0.707107,0.707107,Low,False
+2024-02-22 04:00:00,Medium,498,Intersection,Normal,Gulshan,2,1,Dry,0.866025,0.5,Low,False
+2024-02-22 05:00:00,Medium,879,Intersection,Construction,North Nazimabad,2,1,Dry,0.965926,0.258819,Medium,True
+2024-02-22 06:00:00,Low,2391,Main Road,Normal,DHA,3,1,Dry,1.0,0.0,Low,True
+2024-02-22 07:00:00,High,3176,Service Road,Congested,NIPA Road,2,0,Dry,0.965926,-0.258819,Medium,False
+2024-02-22 08:00:00,High,4889,Intersection,Heavy Traffic,Karimabad,2,1,Dry,0.866025,-0.5,High,True
+2024-02-22 09:00:00,High,4262,Main Road,Normal,Malir,2,0,Dry,0.707107,-0.707107,Low,False
+2024-02-22 10:00:00,Medium,4392,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,0.5,-0.866025,Medium,True
+2024-02-22 11:00:00,Low,3638,Service Road,Normal,DHA,1,0,Dry,0.258819,-0.965926,Low,True
+2024-02-22 12:00:00,Medium,4453,Intersection,Congested,Nazimabad,3,1,Dry,0.0,-1.0,Medium,True
+2024-02-22 13:00:00,Low,3837,Service Road,Normal,Clifton,2,0,Dry,-0.258819,-0.965926,Low,True
+2024-02-22 14:00:00,Low,4723,Main Road,Normal,DHA,3,1,Dry,-0.5,-0.866025,Low,True
+2024-02-22 15:00:00,Low,4805,Highway,Normal,Malir,2,0,Dry,-0.707107,-0.707107,Low,True
+2024-02-22 16:00:00,Medium,6970,Main Road,Normal,Gulshan,3,0,Dry,-0.866025,-0.5,Medium,True
+2024-02-22 17:00:00,High,6042,Intersection,Normal,Gulshan,2,1,Dry,-0.965926,-0.258819,Medium,False
+2024-02-22 18:00:00,Medium,6590,Highway,Normal,Malir,2,0,Dry,-1.0,0.0,Medium,True
+2024-02-22 19:00:00,Medium,7809,Main Road,Heavy Traffic,Korangi,3,1,Dry,-0.965926,0.258819,High,False
+2024-02-22 20:00:00,Medium,6439,Main Road,Construction,North Nazimabad,3,0,Dry,-0.866025,0.5,Medium,True
+2024-02-22 21:00:00,High,4389,Intersection,Congested,Nazimabad,3,1,Dry,-0.707107,0.707107,Low,False
+2024-02-22 22:00:00,High,5092,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.5,0.866025,High,True
+2024-02-22 23:00:00,Medium,2296,Main Road,Normal,Malir,2,0,Dry,-0.258819,0.965926,Medium,True
+2024-02-23 00:00:00,Medium,621,Service Road,Normal,NIPA Road,2,0,Dry,0.0,1.0,Medium,True
+2024-02-23 01:00:00,Medium,447,Service Road,Normal,DHA,1,0,Dry,0.258819,0.965926,Medium,True
+2024-02-23 02:00:00,Low,640,Main Road,Congested,Nazimabad,3,1,Dry,0.5,0.866025,Medium,False
+2024-02-23 03:00:00,Medium,506,Main Road,Congested,North Nazimabad,3,0,Dry,0.707107,0.707107,Medium,True
+2024-02-23 04:00:00,Medium,578,Main Road,Congested,North Nazimabad,3,0,Dry,0.866025,0.5,Medium,True
+2024-02-23 05:00:00,Medium,1024,Intersection,Congested,Nazimabad,3,1,Dry,0.965926,0.258819,Medium,True
+2024-02-23 06:00:00,Medium,2189,Intersection,Congested,Nazimabad,3,1,Dry,1.0,0.0,Medium,True
+2024-02-23 07:00:00,Medium,3309,Service Road,Normal,Clifton,2,0,Dry,0.965926,-0.258819,Medium,True
+2024-02-23 08:00:00,Medium,5108,Main Road,Normal,DHA,3,1,Dry,0.866025,-0.5,Low,False
+2024-02-23 09:00:00,Medium,5036,Main Road,Normal,Malir,2,0,Dry,0.707107,-0.707107,Medium,True
+2024-02-23 10:00:00,Medium,5766,Intersection,Congested,Saddar,2,1,Dry,0.5,-0.866025,Medium,True
+2024-02-23 11:00:00,Low,4773,Main Road,Normal,DHA,3,1,Dry,0.258819,-0.965926,Low,True
+2024-02-23 12:00:00,Medium,3747,Main Road,Normal,NIPA Road,3,0,Dry,0.0,-1.0,Medium,True
+2024-02-23 13:00:00,High,6174,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.258819,-0.965926,High,True
+2024-02-23 14:00:00,Medium,4264,Main Road,Normal,DHA,3,1,Dry,-0.5,-0.866025,Low,False
+2024-02-23 15:00:00,Medium,4527,Main Road,Normal,Gulshan,3,0,Dry,-0.707107,-0.707107,Low,False
+2024-02-23 16:00:00,Medium,5533,Main Road,Normal,DHA,3,1,Dry,-0.866025,-0.5,Medium,True
+2024-02-23 17:00:00,Medium,4781,Service Road,Normal,PECHS,1,0,Dry,-0.965926,-0.258819,Medium,True
+2024-02-23 18:00:00,Medium,7795,Main Road,Congested,North Nazimabad,3,0,Dry,-1.0,0.0,High,False
+2024-02-23 19:00:00,High,8500,Main Road,Congested,Saddar,3,0,Dry,-0.965926,0.258819,High,True
+2024-02-23 20:00:00,High,6623,Main Road,Congested,Saddar,3,0,Dry,-0.866025,0.5,High,True
+2024-02-23 21:00:00,Medium,5135,Intersection,Congested,Lyari,3,1,Dry,-0.707107,0.707107,Medium,True
+2024-02-23 22:00:00,Medium,3020,Service Road,Normal,Clifton,2,0,Dry,-0.5,0.866025,Medium,True
+2024-02-23 23:00:00,Medium,2365,Intersection,Normal,Karimabad,2,1,Dry,-0.258819,0.965926,Medium,True
+2024-02-24 00:00:00,Medium,620,Intersection,Normal,Karimabad,2,1,Dry,0.0,1.0,Medium,True
+2024-02-24 01:00:00,Medium,698,Main Road,Normal,Malir,2,0,Dry,0.258819,0.965926,Medium,True
+2024-02-24 02:00:00,Medium,593,Main Road,Congested,North Nazimabad,3,0,Dry,0.5,0.866025,Low,False
+2024-02-24 03:00:00,Medium,468,Intersection,Congested,Lyari,3,1,Dry,0.707107,0.707107,Medium,True
+2024-02-24 04:00:00,Low,665,Main Road,Normal,Gulshan,3,0,Dry,0.866025,0.5,Low,True
+2024-02-24 05:00:00,Medium,916,Main Road,Construction,Clifton,3,0,Dry,0.965926,0.258819,Medium,True
+2024-02-24 06:00:00,Medium,2189,Main Road,Congested,Nazimabad,3,1,Dry,1.0,0.0,Medium,True
+2024-02-24 07:00:00,High,3360,Service Road,Congested,NIPA Road,2,0,Dry,0.965926,-0.258819,Medium,False
+2024-02-24 08:00:00,High,5100,Intersection,Heavy Traffic,Karimabad,2,1,Dry,0.866025,-0.5,High,True
+2024-02-24 09:00:00,High,4994,Intersection,Congested,Nazimabad,3,1,Dry,0.707107,-0.707107,High,True
+2024-02-24 10:00:00,Low,4667,Intersection,Normal,Gulshan,2,1,Dry,0.5,-0.866025,Low,True
+2024-02-24 11:00:00,Medium,5012,Main Road,Congested,North Nazimabad,3,0,Dry,0.258819,-0.965926,Medium,True
+2024-02-24 12:00:00,Medium,4079,Intersection,Congested,Nazimabad,3,1,Dry,0.0,-1.0,Medium,True
+2024-02-24 13:00:00,Medium,2989,Service Road,Normal,NIPA Road,2,0,Dry,-0.258819,-0.965926,Medium,True
+2024-02-24 14:00:00,Medium,4230,Main Road,Congested,Nazimabad,3,1,Dry,-0.5,-0.866025,Medium,True
+2024-02-24 15:00:00,Medium,5117,Main Road,Congested,Nazimabad,3,1,Dry,-0.707107,-0.707107,Low,False
+2024-02-24 16:00:00,Medium,5736,Main Road,Congested,Nazimabad,3,1,Dry,-0.866025,-0.5,Low,False
+2024-02-24 17:00:00,Medium,5494,Main Road,Normal,PECHS,3,1,Dry,-0.965926,-0.258819,Medium,True
+2024-02-24 18:00:00,Medium,7549,Intersection,Congested,North Nazimabad,2,1,Dry,-1.0,0.0,High,False
+2024-02-24 19:00:00,High,8158,Intersection,Congested,Saddar,2,1,Dry,-0.965926,0.258819,High,True
+2024-02-24 20:00:00,Medium,5054,Service Road,Normal,PECHS,1,0,Dry,-0.866025,0.5,Medium,True
+2024-02-24 21:00:00,Medium,3428,Service Road,Congested,NIPA Road,2,0,Dry,-0.707107,0.707107,Medium,True
+2024-02-24 22:00:00,Medium,4523,Main Road,Construction,Clifton,3,0,Dry,-0.5,0.866025,Medium,True
+2024-02-24 23:00:00,High,2535,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,-0.258819,0.965926,High,True
+2024-02-25 00:00:00,Medium,537,Service Road,Normal,NIPA Road,2,0,Dry,0.0,1.0,Medium,True
+2024-02-25 01:00:00,Medium,624,Intersection,Congested,Nazimabad,3,1,Dry,0.258819,0.965926,Low,False
+2024-02-25 02:00:00,Low,473,Main Road,Normal,DHA,3,1,Dry,0.5,0.866025,Low,True
+2024-02-25 03:00:00,Medium,405,Intersection,Congested,Nazimabad,3,1,Dry,0.707107,0.707107,Medium,True
+2024-02-25 04:00:00,Medium,651,Main Road,Congested,Saddar,3,0,Dry,0.866025,0.5,Medium,True
+2024-02-25 05:00:00,Medium,1116,Main Road,Normal,Malir,2,0,Dry,0.965926,0.258819,Medium,True
+2024-02-25 06:00:00,Medium,2289,Main Road,Normal,DHA,3,1,Dry,1.0,0.0,Low,False
+2024-02-25 07:00:00,High,4454,Intersection,Congested,Nazimabad,3,1,Dry,0.965926,-0.258819,Medium,False
+2024-02-25 08:00:00,Medium,5417,Main Road,Congested,Nazimabad,3,1,Dry,0.866025,-0.5,Medium,True
+2024-02-25 09:00:00,High,6209,Main Road,Congested,Saddar,3,0,Dry,0.707107,-0.707107,High,True
+2024-02-25 10:00:00,Medium,3415,Intersection,Normal,Karimabad,2,1,Dry,0.5,-0.866025,High,False
+2024-02-25 11:00:00,Medium,4149,Main Road,Heavy Traffic,Korangi,3,1,Dry,0.258819,-0.965926,High,False
+2024-02-25 12:00:00,Medium,4777,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.0,-1.0,High,False
+2024-02-25 13:00:00,Medium,4398,Intersection,Normal,Gulshan,2,1,Dry,-0.258819,-0.965926,Medium,True
+2024-02-25 14:00:00,Medium,4493,Intersection,Normal,Gulshan,2,1,Dry,-0.5,-0.866025,Medium,True
+2024-02-25 15:00:00,Medium,4097,Main Road,Normal,PECHS,3,1,Dry,-0.707107,-0.707107,Low,False
+2024-02-25 16:00:00,Medium,4677,Main Road,Congested,Nazimabad,3,1,Dry,-0.866025,-0.5,Low,False
+2024-02-25 17:00:00,Medium,5888,Intersection,Congested,Nazimabad,3,1,Dry,-0.965926,-0.258819,High,False
+2024-02-25 18:00:00,Medium,4837,Service Road,Construction,Clifton,2,0,Dry,-1.0,0.0,High,False
+2024-02-25 19:00:00,Medium,6298,Main Road,Normal,DHA,3,1,Dry,-0.965926,0.258819,Medium,True
+2024-02-25 20:00:00,Medium,4913,Main Road,Normal,Malir,2,0,Dry,-0.866025,0.5,Medium,True
+2024-02-25 21:00:00,Medium,6035,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.707107,0.707107,High,False
+2024-02-25 22:00:00,Medium,4566,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.5,0.866025,High,False
+2024-02-25 23:00:00,Medium,2252,Intersection,Congested,North Nazimabad,2,1,Dry,-0.258819,0.965926,Low,False
+2024-02-26 00:00:00,Low,823,Main Road,Construction,Clifton,3,0,Dry,0.0,1.0,Medium,False
+2024-02-26 01:00:00,Low,590,Main Road,Normal,Gulshan,3,0,Dry,0.258819,0.965926,Low,True
+2024-02-26 02:00:00,Medium,372,Service Road,Construction,Clifton,2,0,Dry,0.5,0.866025,Medium,True
+2024-02-26 03:00:00,Medium,366,Service Road,Normal,NIPA Road,2,0,Dry,0.707107,0.707107,Medium,True
+2024-02-26 04:00:00,Medium,521,Main Road,Construction,Clifton,3,0,Dry,0.866025,0.5,Medium,True
+2024-02-26 05:00:00,Medium,1125,Main Road,Normal,NIPA Road,3,0,Dry,0.965926,0.258819,Medium,True
+2024-02-26 06:00:00,Medium,2771,Main Road,Congested,North Nazimabad,3,0,Dry,1.0,0.0,Medium,True
+2024-02-26 07:00:00,High,4111,Main Road,Construction,Clifton,3,0,Dry,0.965926,-0.258819,Medium,False
+2024-02-26 08:00:00,High,5703,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,0.866025,-0.5,High,True
+2024-02-26 09:00:00,Medium,5216,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,0.707107,-0.707107,High,False
+2024-02-26 10:00:00,Medium,3064,Service Road,Normal,NIPA Road,2,0,Dry,0.5,-0.866025,Medium,True
+2024-02-26 11:00:00,Medium,4426,Highway,Normal,Malir,2,0,Dry,0.258819,-0.965926,Medium,True
+2024-02-26 12:00:00,Medium,3481,Service Road,Construction,Clifton,2,0,Dry,0.0,-1.0,Medium,True
+2024-02-26 13:00:00,High,6149,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.258819,-0.965926,High,True
+2024-02-26 14:00:00,Medium,4402,Main Road,Normal,DHA,3,1,Dry,-0.5,-0.866025,Low,False
+2024-02-26 15:00:00,Medium,3419,Service Road,Construction,Clifton,2,0,Dry,-0.707107,-0.707107,Medium,True
+2024-02-26 16:00:00,Medium,4036,Service Road,Construction,Clifton,2,0,Dry,-0.866025,-0.5,Medium,True
+2024-02-26 17:00:00,High,5174,Main Road,Heavy Traffic,Karimabad,2,1,Dry,-0.965926,-0.258819,High,True
+2024-02-26 18:00:00,High,5322,Main Road,Heavy Traffic,Karimabad,2,1,Dry,-1.0,0.0,High,True
+2024-02-26 19:00:00,High,6468,Intersection,Congested,Nazimabad,3,1,Dry,-0.965926,0.258819,High,True
+2024-02-26 20:00:00,Medium,5678,Main Road,Normal,Malir,2,0,Dry,-0.866025,0.5,Medium,True
+2024-02-26 21:00:00,Medium,4187,Service Road,Normal,DHA,1,0,Dry,-0.707107,0.707107,Low,False
+2024-02-26 22:00:00,High,3978,Main Road,Congested,Saddar,3,0,Dry,-0.5,0.866025,Medium,False
+2024-02-26 23:00:00,Medium,2658,Main Road,Normal,PECHS,3,1,Dry,-0.258819,0.965926,Medium,True
+2024-02-27 00:00:00,Medium,823,Main Road,Normal,Gulshan,3,0,Dry,0.0,1.0,Low,False
+2024-02-27 01:00:00,Medium,688,Main Road,Normal,PECHS,3,1,Dry,0.258819,0.965926,Medium,True
+2024-02-27 02:00:00,Medium,588,Main Road,Normal,Malir,2,0,Dry,0.5,0.866025,Medium,True
+2024-02-27 03:00:00,Low,366,Service Road,Normal,DHA,1,0,Dry,0.707107,0.707107,Low,True
+2024-02-27 04:00:00,Medium,559,Intersection,Normal,Karimabad,2,1,Dry,0.866025,0.5,Medium,True
+2024-02-27 05:00:00,Medium,741,Service Road,Normal,NIPA Road,2,0,Dry,0.965926,0.258819,Medium,True
+2024-02-27 06:00:00,Medium,2762,Highway,Normal,Malir,2,0,Dry,1.0,0.0,Medium,True
+2024-02-27 07:00:00,High,3785,Intersection,Congested,Karimabad,2,1,Dry,0.965926,-0.258819,High,True
+2024-02-27 08:00:00,Medium,4302,Service Road,Normal,PECHS,1,0,Dry,0.866025,-0.5,Medium,True
+2024-02-27 09:00:00,High,7351,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.707107,-0.707107,High,True
+2024-02-27 10:00:00,Medium,4442,Main Road,Construction,Clifton,3,0,Dry,0.5,-0.866025,Medium,True
+2024-02-27 11:00:00,Medium,3263,Service Road,Normal,PECHS,1,0,Dry,0.258819,-0.965926,Medium,True
+2024-02-27 12:00:00,Medium,3302,Main Road,Normal,Karimabad,2,1,Dry,0.0,-1.0,Medium,True
+2024-02-27 13:00:00,Medium,4883,Main Road,Congested,Saddar,3,0,Dry,-0.258819,-0.965926,Medium,True
+2024-02-27 14:00:00,Medium,4166,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,-0.5,-0.866025,Medium,True
+2024-02-27 15:00:00,Medium,4808,Main Road,Normal,DHA,3,1,Dry,-0.707107,-0.707107,Low,False
+2024-02-27 16:00:00,Medium,5303,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,-0.866025,-0.5,Medium,True
+2024-02-27 17:00:00,Medium,4924,Main Road,Normal,Malir,2,0,Dry,-0.965926,-0.258819,Medium,True
+2024-02-27 18:00:00,High,8500,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-1.0,0.0,High,True
+2024-02-27 19:00:00,High,6282,Main Road,Heavy Traffic,Karimabad,2,1,Dry,-0.965926,0.258819,High,True
+2024-02-27 20:00:00,Medium,4098,Service Road,Normal,PECHS,1,0,Dry,-0.866025,0.5,Medium,True
+2024-02-27 21:00:00,Low,5026,Main Road,Normal,DHA,3,1,Dry,-0.707107,0.707107,Low,True
+2024-02-27 22:00:00,Medium,3846,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,-0.5,0.866025,Medium,True
+2024-02-27 23:00:00,Low,2648,Main Road,Congested,Nazimabad,3,1,Dry,-0.258819,0.965926,Medium,False
+2024-02-28 00:00:00,Medium,1127,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.0,1.0,High,False
+2024-02-28 01:00:00,Medium,718,Main Road,Congested,Saddar,3,0,Dry,0.258819,0.965926,Medium,True
+2024-02-28 02:00:00,Medium,633,Highway,Normal,Malir,2,0,Dry,0.5,0.866025,Medium,True
+2024-02-28 03:00:00,Low,323,Service Road,Normal,DHA,1,0,Dry,0.707107,0.707107,Low,True
+2024-02-28 04:00:00,Low,693,Highway,Normal,Malir,2,0,Dry,0.866025,0.5,Medium,False
+2024-02-28 05:00:00,High,805,Intersection,Normal,Karimabad,2,1,Dry,0.965926,0.258819,Medium,False
+2024-02-28 06:00:00,Medium,1952,Main Road,Normal,Malir,2,0,Dry,1.0,0.0,Medium,True
+2024-02-28 07:00:00,Medium,4098,Intersection,Congested,Lyari,3,1,Dry,0.965926,-0.258819,High,False
+2024-02-28 08:00:00,High,4486,Intersection,Congested,Lyari,3,1,Dry,0.866025,-0.5,High,True
+2024-02-28 09:00:00,High,5881,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.707107,-0.707107,High,True
+2024-02-28 10:00:00,Medium,4288,Main Road,Normal,Gulshan,3,0,Dry,0.5,-0.866025,Medium,True
+2024-02-28 11:00:00,Medium,3815,Intersection,Congested,Nazimabad,3,1,Dry,0.258819,-0.965926,Medium,True
+2024-02-28 12:00:00,Low,4373,Main Road,Normal,Gulshan,3,0,Dry,0.0,-1.0,Medium,False
+2024-02-28 13:00:00,High,4907,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.258819,-0.965926,High,True
+2024-02-28 14:00:00,Medium,4780,Main Road,Normal,Gulshan,3,0,Dry,-0.5,-0.866025,Low,False
+2024-02-28 15:00:00,Medium,4389,Main Road,Normal,DHA,3,1,Dry,-0.707107,-0.707107,Low,False
+2024-02-28 16:00:00,Low,6316,Intersection,Congested,Saddar,2,1,Dry,-0.866025,-0.5,Medium,False
+2024-02-28 17:00:00,High,4403,Intersection,Heavy Traffic,Karimabad,2,1,Dry,-0.965926,-0.258819,High,True
+2024-02-28 18:00:00,Medium,5207,Service Road,Construction,Clifton,2,0,Dry,-1.0,0.0,High,False
+2024-02-28 19:00:00,Medium,4602,Service Road,Normal,PECHS,1,0,Dry,-0.965926,0.258819,Medium,True
+2024-02-28 20:00:00,Medium,3807,Service Road,Congested,NIPA Road,2,0,Dry,-0.866025,0.5,Medium,True
+2024-02-28 21:00:00,High,3821,Intersection,Congested,Karimabad,2,1,Dry,-0.707107,0.707107,Medium,False
+2024-02-28 22:00:00,High,4963,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.5,0.866025,High,True
+2024-02-28 23:00:00,Medium,2632,Main Road,Congested,Nazimabad,3,1,Dry,-0.258819,0.965926,Medium,True
+2024-02-29 00:00:00,Medium,891,Main Road,Normal,NIPA Road,3,0,Dry,0.0,1.0,Medium,True
+2024-02-29 01:00:00,Low,454,Service Road,Normal,PECHS,1,0,Dry,0.258819,0.965926,Medium,False
+2024-02-29 02:00:00,Medium,527,Main Road,Normal,DHA,3,1,Dry,0.5,0.866025,Low,False
+2024-02-29 03:00:00,Medium,355,Service Road,Normal,DHA,1,0,Dry,0.707107,0.707107,Low,False
+2024-02-29 04:00:00,Medium,506,Main Road,Construction,Malir,2,0,Dry,0.866025,0.5,Medium,True
+2024-02-29 05:00:00,Low,1166,Main Road,Normal,DHA,3,1,Dry,0.965926,0.258819,Low,True
+2024-02-29 06:00:00,Medium,1826,Service Road,Normal,PECHS,1,0,Dry,1.0,0.0,Medium,True
+2024-02-29 07:00:00,High,2739,Narrow Road,Congested,Lyari,1,0,Dry,0.965926,-0.258819,Medium,False
+2024-02-29 08:00:00,High,7818,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.866025,-0.5,High,True
+2024-02-29 09:00:00,Medium,6518,Main Road,Congested,Saddar,3,0,Dry,0.707107,-0.707107,High,False
+2024-02-29 10:00:00,Low,3234,Service Road,Normal,PECHS,1,0,Dry,0.5,-0.866025,Medium,False
+2024-02-29 11:00:00,Medium,4538,Main Road,Congested,Nazimabad,3,1,Dry,0.258819,-0.965926,Medium,True
+2024-02-29 12:00:00,Medium,3266,Service Road,Normal,PECHS,1,0,Dry,0.0,-1.0,Medium,True
+2024-02-29 13:00:00,Low,3592,Service Road,Normal,DHA,1,0,Dry,-0.258819,-0.965926,Low,True
+2024-02-29 14:00:00,Medium,4705,Main Road,Congested,North Nazimabad,3,0,Dry,-0.5,-0.866025,Low,False
+2024-02-29 15:00:00,Low,5116,Main Road,Normal,DHA,3,1,Dry,-0.707107,-0.707107,Low,True
+2024-02-29 16:00:00,Low,4733,Intersection,Congested,Nazimabad,3,1,Dry,-0.866025,-0.5,Low,True
+2024-02-29 17:00:00,Medium,6030,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,-0.965926,-0.258819,High,False
+2024-02-29 18:00:00,High,6520,Main Road,Normal,Clifton,3,0,Dry,-1.0,0.0,High,True
+2024-02-29 19:00:00,High,3699,Narrow Road,Congested,Lyari,1,0,Dry,-0.965926,0.258819,High,True
+2024-02-29 20:00:00,Medium,5822,Intersection,Congested,Nazimabad,3,1,Dry,-0.866025,0.5,Medium,True
+2024-02-29 21:00:00,Medium,4989,Main Road,Congested,North Nazimabad,3,0,Dry,-0.707107,0.707107,Medium,True
+2024-02-29 22:00:00,High,4591,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.5,0.866025,High,True
+2024-02-29 23:00:00,Low,2871,Intersection,Congested,North Nazimabad,2,1,Dry,-0.258819,0.965926,Low,True
+2024-03-01 00:00:00,Medium,932,Highway,Construction,Malir,2,0,Dry,0.0,1.0,Medium,True
+2024-03-01 01:00:00,Medium,704,Main Road,Normal,Clifton,3,0,Dry,0.258819,0.965926,Medium,True
+2024-03-01 02:00:00,Medium,407,Service Road,Normal,PECHS,1,0,Dry,0.5,0.866025,Low,False
+2024-03-01 03:00:00,Medium,467,Main Road,Construction,Malir,2,0,Dry,0.707107,0.707107,Medium,True
+2024-03-01 04:00:00,Medium,589,Main Road,Congested,North Nazimabad,3,0,Dry,0.866025,0.5,Medium,True
+2024-03-01 05:00:00,Medium,717,Service Road,Normal,NIPA Road,2,0,Dry,0.965926,0.258819,Medium,True
+2024-03-01 06:00:00,Medium,2108,Main Road,Congested,North Nazimabad,3,0,Dry,1.0,0.0,Medium,True
+2024-03-01 07:00:00,Medium,4930,Main Road,Normal,DHA,3,1,Dry,0.965926,-0.258819,Low,False
+2024-03-01 08:00:00,High,6124,Main Road,Congested,Saddar,3,0,Dry,0.866025,-0.5,High,True
+2024-03-01 09:00:00,Medium,6326,Main Road,Normal,Gulshan,3,0,Dry,0.707107,-0.707107,Medium,True
+2024-03-01 10:00:00,Medium,4891,Intersection,Congested,North Nazimabad,2,1,Dry,0.5,-0.866025,Low,False
+2024-03-01 11:00:00,Medium,4697,Highway,Construction,Malir,2,0,Dry,0.258819,-0.965926,Medium,True
+2024-03-01 12:00:00,Low,4474,Main Road,Normal,DHA,3,1,Dry,0.0,-1.0,Low,True
+2024-03-01 13:00:00,Medium,6109,Highway,Heavy Traffic,Sohrab Goth,3,0,Rainy,-0.258819,-0.965926,High,False
+2024-03-01 14:00:00,High,6067,Highway,Heavy Traffic,Sohrab Goth,3,0,Rainy,-0.5,-0.866025,High,True
+2024-03-01 15:00:00,Medium,4696,Intersection,Congested,North Nazimabad,2,1,Rainy,-0.707107,-0.707107,Medium,True
+2024-03-01 16:00:00,Low,6192,Main Road,Normal,DHA,3,1,Rainy,-0.866025,-0.5,Medium,False
+2024-03-01 17:00:00,Medium,4999,Service Road,Normal,DHA,1,0,Dry,-0.965926,-0.258819,Medium,True
+2024-03-01 18:00:00,Medium,6713,Main Road,Construction,Malir,2,0,Rainy,-1.0,0.0,High,False
+2024-03-01 19:00:00,High,5341,Intersection,Heavy Traffic,Karimabad,2,1,Dry,-0.965926,0.258819,High,True
+2024-03-01 20:00:00,Medium,5697,Main Road,Heavy Traffic,Karimabad,2,1,Dry,-0.866025,0.5,High,False
+2024-03-01 21:00:00,Medium,3914,Service Road,Normal,Clifton,2,0,Dry,-0.707107,0.707107,Medium,True
+2024-03-01 22:00:00,Medium,5437,Highway,Heavy Traffic,Sohrab Goth,3,0,Rainy,-0.5,0.866025,High,False
+2024-03-01 23:00:00,High,3674,Highway,Heavy Traffic,Sohrab Goth,3,0,Rainy,-0.258819,0.965926,High,True
+2024-03-02 00:00:00,Medium,625,Service Road,Normal,NIPA Road,2,0,Dry,0.0,1.0,Medium,True
+2024-03-02 01:00:00,High,663,Intersection,Congested,Saddar,2,1,Dry,0.258819,0.965926,Medium,False
+2024-03-02 02:00:00,Medium,670,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.5,0.866025,High,False
+2024-03-02 03:00:00,Medium,636,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.707107,0.707107,High,False
+2024-03-02 04:00:00,Medium,757,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,0.866025,0.5,High,False
+2024-03-02 05:00:00,Medium,925,Main Road,Normal,Karimabad,2,1,Dry,0.965926,0.258819,Medium,True
+2024-03-02 06:00:00,Medium,2329,Main Road,Heavy Traffic,Korangi,3,1,Dry,1.0,0.0,Medium,True
+2024-03-02 07:00:00,Medium,5075,Main Road,Normal,DHA,3,1,Dry,0.965926,-0.258819,Low,False
+2024-03-02 08:00:00,Medium,6693,Main Road,Normal,Clifton,3,0,Dry,0.866025,-0.5,Medium,True
+2024-03-02 09:00:00,Medium,5755,Intersection,Congested,Lyari,3,1,Dry,0.707107,-0.707107,Medium,True
+2024-03-02 10:00:00,Medium,4230,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,0.5,-0.866025,Medium,True
+2024-03-02 11:00:00,High,4287,Main Road,Congested,Nazimabad,3,1,Dry,0.258819,-0.965926,Medium,False
+2024-03-02 12:00:00,Medium,3943,Main Road,Normal,Karimabad,2,1,Dry,0.0,-1.0,Medium,True
+2024-03-02 13:00:00,Medium,4962,Industrial Road,Heavy Traffic,Korangi,2,0,Dry,-0.258819,-0.965926,Medium,True
+2024-03-02 14:00:00,Medium,4735,Main Road,Normal,DHA,3,1,Dry,-0.5,-0.866025,Low,False
+2024-03-02 15:00:00,High,3877,Intersection,Congested,Lyari,3,1,Dry,-0.707107,-0.707107,Medium,False
+2024-03-02 16:00:00,High,5496,Main Road,Congested,Nazimabad,3,1,Dry,-0.866025,-0.5,Low,False
+2024-03-02 17:00:00,High,8500,Main Road,Congested,Saddar,3,0,Dry,-0.965926,-0.258819,High,True
+2024-03-02 18:00:00,Medium,6513,Main Road,Congested,Nazimabad,3,1,Dry,-1.0,0.0,High,False
+2024-03-02 19:00:00,High,8500,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.965926,0.258819,High,True
+2024-03-02 20:00:00,Medium,6582,Intersection,Congested,Lyari,3,1,Dry,-0.866025,0.5,Medium,True
+2024-03-02 21:00:00,High,6924,Highway,Heavy Traffic,Sohrab Goth,3,0,Dry,-0.707107,0.707107,High,True
+2024-03-02 22:00:00,Low,4777,Main Road,Congested,North Nazimabad,3,0,Dry,-0.5,0.866025,Low,True
+2024-03-02 23:00:00,Medium,2129,Service Road,Normal,PECHS,1,0,Dry,-0.258819,0.965926,Medium,True
+2024-03-03 00:00:00,Low,694,Intersection,Congested,Saddar,2,1,Dry,0.0,1.0,Medium,False
+2024-03-03 01:00:00,Low,681,Main Road,Heavy Traffic,Korangi,3,1,Dry,0.258819,0.965926,Medium,False
+2024-03-03 02:00:00,Medium,398,Narrow Road,Congested,Lyari,1,0,Dry,0.5,0.866025,Medium,True
+2024-03-03 03:00:00,Medium,382,Intersection,Congested,Lyari,3,1,Dry,0.707107,0.707107,Medium,True
+2024-03-03 04:00:00,Medium,663,Main Road,Heavy Traffic,Korangi,3,1,Dry,0.866025,0.5,Medium,True
+2024-03-03 05:00:00,Medium,956,Main Road,Construction,Malir,2,0,Dry,0.965926,0.258819,Medium,True
+2024-03-03 06:00:00,Medium,2118,Intersection,Congested,Saddar,2,1,Dry,1.0,0.0,Medium,True
+2024-03-03 07:00:00,Medium,4321,Intersection,Normal,Gulshan,2,1,Dry,0.965926,-0.258819,Medium,True
+2024-03-03 08:00:00,Medium,3913,Service Road,Normal,Clifton,2,0,Dry,0.866025,-0.5,Medium,True
+2024-03-03 09:00:00,High,5693,Main Road,Heavy Traffic,Korangi,3,1,Dry,0.707107,-0.707107,High,True
+2024-03-03 10:00:00,Low,3164,Service Road,Normal,Clifton,2,0,Dry,0.5,-0.866025,Low,True
+2024-03-03 11:00:00,Medium,3686,Intersection,Congested,Lyari,3,1,Dry,0.258819,-0.965926,High,False

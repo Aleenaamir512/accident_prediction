@@ -1,0 +1,31 @@
+Transformed Feature,Original Feature,Feature Type,Category,RF Importance
+numerical__Vehicle Count,Vehicle Count,Numerical,,0.2247863097038094
+numerical__Hour Sin,Hour Sin,Numerical,,0.16968639895738719
+numerical__Hour Cos,Hour Cos,Numerical,,0.12765079694697345
+categorical__Road Condition_Heavy Traffic,Road Condition,Categorical,Heavy Traffic,0.07806032347496475
+categorical__Road Condition_Normal,Road Condition,Categorical,Normal,0.07664046002210104
+categorical__Area_DHA,Area,Categorical,DHA,0.035026915530643826
+categorical__Area_NIPA Road,Area,Categorical,NIPA Road,0.02704310212509837
+categorical__Area_Sohrab Goth,Area,Categorical,Sohrab Goth,0.025203535420385257
+numerical__Number of Lanes,Number of Lanes,Numerical,,0.02306863878638542
+categorical__Area_Karimabad,Area,Categorical,Karimabad,0.020046901587495024
+categorical__Road Type_Highway,Road Type,Categorical,Highway,0.016546429542575024
+categorical__Road Condition_Congested,Road Condition,Categorical,Congested,0.015622451656660336
+numerical__Traffic Signal,Traffic Signal,Numerical,,0.015133599311178726
+categorical__Area_Nazimabad,Area,Categorical,Nazimabad,0.014685643795232378
+categorical__Road Type_Main Road,Road Type,Categorical,Main Road,0.014368588135866918
+categorical__Area_Lyari,Area,Categorical,Lyari,0.01239790843844391
+categorical__Area_North Nazimabad,Area,Categorical,North Nazimabad,0.011701965854344068
+categorical__Area_Gulshan,Area,Categorical,Gulshan,0.011260349618474514
+categorical__Road Type_Intersection,Road Type,Categorical,Intersection,0.01119129737402201
+categorical__Area_Saddar,Area,Categorical,Saddar,0.011006247244801716
+categorical__Area_PECHS,Area,Categorical,PECHS,0.00945401020745677
+categorical__Area_Malir,Area,Categorical,Malir,0.009348917316230106
+categorical__Area_Clifton,Area,Categorical,Clifton,0.008941195015510484
+categorical__Road Condition_Construction,Road Condition,Categorical,Construction,0.008738790377644792
+categorical__Road Type_Service Road,Road Type,Categorical,Service Road,0.007932025271700024
+categorical__Area_Korangi,Area,Categorical,Korangi,0.006958551569625597
+categorical__Road Type_Industrial Road,Road Type,Categorical,Industrial Road,0.003260095026719612
+categorical__Road Type_Narrow Road,Road Type,Categorical,Narrow Road,0.0032203979395191255
+categorical__ML Weather_Rainy,ML Weather,Categorical,Rainy,0.000530188041041301
+categorical__ML Weather_Dry,ML Weather,Categorical,Dry,0.000487965707709012
