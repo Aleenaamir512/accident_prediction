@@ -104,7 +104,7 @@ SAVE_RAW_EDGES = False
 # 3. LOAD ORIGINAL THESIS DATASET
 # ============================================================
 
-df = pd.read_excel(INPUT_FILE)
+df = pd.read_excel(INPUT_FILE, sheet_name=INPUT_SHEET)
 
 required_columns = [
     "Date-Time",
