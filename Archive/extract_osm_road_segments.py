@@ -34,11 +34,15 @@ import osmnx as ox
 # ============================================================
 
 SCRIPT_FOLDER = Path(__file__).resolve().parent
+PROJECT_FOLDER = SCRIPT_FOLDER.parent
 
-INPUT_FILE = (
-    SCRIPT_FOLDER
-    / "realistic_karachi_traffic_risk_dataset_final.xlsx"
-)
+# Keep the thesis dataset local in the project root.
+INPUT_FILE = PROJECT_FOLDER / "karachi_traffic_feature_engineered_final_v2.xlsx"
+INPUT_SHEET = "Data"
+
+# One GraphML file per area, preserving OSM node/edge topology.
+GRAPH_OUTPUT_FOLDER = PROJECT_FOLDER / "OSM_Road_Networks"
+GRAPH_OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 OUTPUT_FILE = (
     SCRIPT_FOLDER
