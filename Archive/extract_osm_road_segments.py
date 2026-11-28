@@ -1083,6 +1083,18 @@ for area in areas_to_process:
             area
         )
 
+        # Save the complete routable graph, including node IDs, edge IDs,
+        # one-way attributes and topology. This is separate from the
+        # aggregated named-road candidate workbook.
+        safe_area_name = re.sub(
+            r"[^A-Za-z0-9_-]+",
+            "_",
+            area
+        ).strip("_")
+        graph_file = GRAPH_OUTPUT_FOLDER / f"{safe_area_name}.graphml"
+        ox.save_graphml(G, filepath=graph_file)
+        print("Route graph saved:", graph_file)
+
         # ----------------------------------------------------
         # CONVERT GRAPH TO GEODATAFRAMES
         # ----------------------------------------------------
