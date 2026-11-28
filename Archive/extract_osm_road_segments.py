@@ -598,6 +598,19 @@ else:
     successful_areas = set()
 
 
+# A successful Excel summary from an earlier version does not guarantee
+# that its routable GraphML file exists. Reprocess such areas once.
+for completed_area in list(successful_areas):
+    safe_name = re.sub(
+        r"[^A-Za-z0-9_-]+",
+        "_",
+        completed_area
+    ).strip("_")
+    saved_graph = GRAPH_OUTPUT_FOLDER / f"{safe_name}.graphml"
+    if not saved_graph.exists():
+        successful_areas.remove(completed_area)
+
+
 areas_to_process = [
     area
     for area in areas
